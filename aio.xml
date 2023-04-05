@@ -27,6 +27,11 @@
     path="vendor/xiaomi/sm8250-common"
     remote="git"
     revision="aosp-13" />
+<project
+    name="levi3609/kernel_xiaomi_sm8250"
+    path="kernel/xiaomi/sm8250"
+    remote="git"
+    revision="aosp-13" />
 
 <!-- HALs -->
 <project
