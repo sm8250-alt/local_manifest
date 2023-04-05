@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Removed projects -->
+<remove-project name="LineageOS/android_hardware_qcom_display" />     
+<remove-project name="android_packages_resources_devicesettings" />
+<remove-project name="android_external_faceunlock" />
+<remove-project name="android_hardware_xiaomi" />
+
+<!-- Device Trees -->
+<project
+    name="levi3609/device_xiaomi_alioth"
+    path="device/xiaomi/alioth"
+    remote="git"
+    revision="lineage" />
+<project
+    name="levi3609/device_xiaomi_sm8250-common"
+    path="device/xiaomi/sm8250-common"
+    remote="git"
+    revision="lineage" />
+<project
+    name="levi3609/vendor_xiaomi_alioth"
+    path="vendor/xiaomi/alioth"
+    remote="git"
+    revision="aosp-13" />
+<project
+    name="levi3609/vendor_xiaomi_sm8250-common"
+    path="vendor/xiaomi/sm8250-common"
+    remote="git"
+    revision="aosp-13" />
+
+<!-- HALs -->
+<project
+    name="levi3609/hardware_qcom-caf_sm8250_display"
+    path="hardware/qcom-caf/sm8250/display"
+    remote="git"
+    revision="aosp-13" />
+
+<!-- Misc -->
+<project
+    name="levi3609/zyc_clang-14"
+    path="prebuilts/clang/host/linux-x86/clang-zyc"
+    remote="git"
+    revision="master" />
+<project
+    name="levi3609/hardware_xiaomi"
+    path="hardware/xiaomi"
+    remote="git"
+    revision="aosp-13" />
+<project
+    name="levi3609/packages_resources_devicesettings"
+    path="packages/resources/devicesettings"
+    remote="git"
+    revision="aosp-13" />
+<project
+    name="nhAsif/clang-r450784d"
+    path="prebuilts/clang/host/linux-x86/clang-r450784d"
+    remote="glab"
+    revision="master" />
+<project
+    name="VoidUI/external_faceunlock"
+    path="external/faceunlock"
+    remote="glab"
+    revision="aosp-13" />
+
+</manifest>
