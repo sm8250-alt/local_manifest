@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Removed projects -->
-<remove-project name="LineageOS/android_hardware_qcom_display" />     
+<remove-project name="android_hardware_qcom_display" />     
 <remove-project name="android_packages_resources_devicesettings" />
 <remove-project name="android_external_faceunlock" />
 <remove-project name="android_hardware_xiaomi" />
@@ -11,12 +11,12 @@
     name="levi3609/device_xiaomi_alioth"
     path="device/xiaomi/alioth"
     remote="git"
-    revision="lineage" />
+    revision="superior" />
 <project
     name="levi3609/device_xiaomi_sm8250-common"
     path="device/xiaomi/sm8250-common"
     remote="git"
-    revision="lineage" />
+    revision="superior" />
 <project
     name="levi3609/vendor_xiaomi_alioth"
     path="vendor/xiaomi/alioth"
