@@ -4,11 +4,18 @@
 <remote name="git" fetch="https://github.com" />
 <remote name="glab" fetch="https://gitlab.com" />
     
-<!-- Removed projects -->
-<remove-project name="LineageOS/android_hardware_qcom_display" />     
-<remove-project name="crdroidandroid/android_packages_resources_devicesettings" />
-<remove-project name="crdroidandroid/android_external_faceunlock" />
+<!-- Removed projects -->  
+<remove-project name="LineageOS/android_packages_resources_devicesettings" />
+<remove-project name="crdroidandroid/android_frameworks_native" />
+<remove-project name="platform/system/libhwbinder" />
+<remove-project name="LineageOS/android_device_qcom_sepolicy" />
+<remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+<remove-project name="LineageOS/android_hardware_qcom_display" />
+<remove-project name="LineageOS/android_hardware_qcom_audio" />
+<remove-project name="LineageOS/android_hardware_qcom_media" />
 
+
+    
 <!-- Device Trees -->
 <project
     name="levi3609/device_xiaomi_alioth"
