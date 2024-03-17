@@ -29,7 +29,6 @@
 <project path="device/qcom/sepolicy" name="PixelExperience/device_qcom_sepolicy" remote="github" revision="fourteen" />
 <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="github" revision="fourteen" />
 <project path="device/qcom/sepolicy_vndr/legacy-um" name="PixelExperience/device_qcom_sepolicy_vndr_legacy-um" remote="github" revision="fourteen" />
-<project path="prebuilts/clang/host/linux-x86/clang-r510928" name="ghost-os/clang-r510928" remote="bitbucket" revision="main" clone-depth="1" />
 <project path="system/libhwbinder" name="VoidUI-Andromeda/system_libhwbinder" remote="github" revision="aosp-14" clone-depth="1" />
 <project path="vendor/gapps" name="projectmatrixx/android_vendor_gapps" remote="bitbucket" revision="14.0" clone-depth="1" />
 <project path="frameworks/native" name="sm8250-stuffs/android_frameworks_native" remote="github" revision="14.0" clone-depth="1" />
