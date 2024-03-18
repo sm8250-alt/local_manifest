@@ -15,7 +15,7 @@
 <remove-project name="LineageOS/android_hardware_qcom_media" />
 <remove-project name="crdroidandroid/android_build_soong" />
 
-  <project path="build/soong" name="sm8250-stuffs/android_build_soong-new" remote="git" revision="los" >
+  <project path="build/soong" name="sm8250-stuffs/android_build_soong-new" remote="git" revision="14.0" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -23,7 +23,7 @@
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="sm8250-stuffs/device_xiaomi_alioth" remote="github" revision="los" clone-depth="1" />
 <project path="device/xiaomi/sm8250-common" name="sm8250-stuffs/device_xiaomi_sm8250-common-new" remote="github" revision="los" clone-depth="1" />
-<project path="vendor/xiaomi/alioth" name="sm8250-stuffs/vendor_xiaomi_alioth" remote="github" revision="aosp-14" clone-depth="1" />
+<project path="vendor/xiaomi/alioth" name="sm8250-stuffs/vendor_xiaomi_alioth" remote="github" revision="los" clone-depth="1" />
 <project path="vendor/xiaomi/sm8250-common" name="sm8250-stuffs/vendor_xiaomi_sm8250-common" remote="github" revision="aosp-14" clone-depth="1" />
 <project path="kernel/xiaomi/sm8250" name="sm8250-stuffs/kernel_xiaomi_sm8250" remote="github" revision="aosp-14" clone-depth="1" />
 <project path="hardware/qcom-caf/sm8250/display" name="sm8250-stuffs/hardware_qcom-caf_sm8250_display" remote="github" revision="fourteen" clone-depth="1" />
