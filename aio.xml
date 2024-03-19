@@ -41,4 +41,5 @@
 <project path="vendor/gapps" name="projectmatrixx/android_vendor_gapps" remote="bitbucket" revision="14.0" clone-depth="1" />
 <project path="frameworks/native" name="sm8250-stuffs/android_frameworks_native" remote="github" revision="14.0" clone-depth="1" />
 <project path="frameworks/av" name="sm8250-stuffs/android_frameworks_av" remote="github" revision="14.0" clone-depth="1" />
+<project path="vendor/xiaomi/camera" name="nhAsif/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
 </manifest>
