@@ -28,7 +28,7 @@
 <project path="device/xiaomi/sm8250-common" name="sm8250-stuffs/device_xiaomi_sm8250-common-new" remote="git" revision="los" clone-depth="1" />
 <project path="vendor/xiaomi/alioth" name="sm8250-stuffs/vendor_xiaomi_alioth" remote="git" revision="los" clone-depth="1" />
 <project path="vendor/xiaomi/sm8250-common" name="sm8250-stuffs/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
-<project path="kernel/xiaomi/sm8250" name="sm8250-stuffs/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="kernel/xiaomi/sm8250" name="sm8250-stuffs/kernel_xiaomi_sm8250-no" remote="git" revision="staging" clone-depth="1" />
 <project path="hardware/qcom-caf/sm8250/display" name="sm8250-stuffs/hardware_qcom-caf_sm8250_display" remote="git" revision="fourteen" clone-depth="1" />
 <project path="hardware/qcom-caf/sm8250/audio" name="sm8250-stuffs/hardware_qcom-caf_sm8250_audio" remote="git" revision="fourteen" clone-depth="1" />
 <project path="hardware/qcom-caf/sm8250/media" name="sm8250-stuffs/hardware_qcom-caf_sm8250_media" remote="git" revision="fourteen" clone-depth="1" />
